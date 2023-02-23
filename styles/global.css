@@ -1,0 +1,53 @@
+:root {
+    /* Color Palette */
+    --base: #1e1f2f;
+    --crust: #10111a;
+    --mantle: #191824;
+    --surface0: #303245;
+    --foreground: #cdd6f4;
+    --subtext0: #A7ACC8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    color: var(--foreground);
+}
+
+body {
+    background-color: var(--base);
+}
+
+#container {
+    text-align: center;
+}
+
+#index-title {
+    padding-top: 6em;
+}
+
+#index-section {
+    padding: 3em;
+    padding-top: 5em;
+}
+
+.title {
+    padding: 3em;
+}
+
+.main-section {}
+
+#foot-notes {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--crust);
+    text-align: center;
+}
+
+.foot-note {
+    display: inline-block;
+    margin-block: .6em;
+    margin-inline: 8vw;
+}
