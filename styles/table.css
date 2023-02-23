@@ -1,0 +1,22 @@
+.table-component {}
+
+.table-title {}
+
+.table-content {}
+
+.table-head {}
+
+.table-head-row {
+}
+
+.table-header {
+}
+
+.table-body {}
+
+.table-body-row {
+    border-block: 1px solid var(--subtext0);
+}
+
+.table-column {
+}
